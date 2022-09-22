@@ -1,0 +1,20 @@
+.jumbotron h1 {
+  background-image: url("../images/bacteria.png");
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.col-md-4 {
+  margin-bottom: 25px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.svg-container{
+  outline-style: solid;
+
+}
+
+body {
+  background-color:aliceblue;
+  
+}
