@@ -9,9 +9,15 @@ function buildCharts(sample) {
     Plotly.newPlot(); 
 
     // 1. Create the trace for the bubble chart.
-    var bubbleData = [
-   
-    ];
+    var bubbleData = {
+      x: otuIDs,
+      y: sampleVals,
+      text: otuLabs,
+      mode: 'markers',
+      marker: {
+        size: sampleVals,
+        color: otuIDs
+    };
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
